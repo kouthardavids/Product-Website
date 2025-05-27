@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercise 03</title>
+  </head>
+
+  <body>
+    <body>
+      <!-- Hero Section with Video Background -->
+            <video autoplay muted loop class="background-animation">
+            <source
+                src="https://cdn.pixabay.com/video/2022/06/10/119848-719283265_large.mp4"
+                type="video/mp4"
+            />
+            </video>
+
+            <div class="hero">
+            <h1 class="main">Welcome to TechMarket</h1>
+            <button>Shop Now</button>
+            </div>
+        </section>
+
+      <!-- Popular Products Section BELOW Hero -->
+      <section class="popular-section">
+        <h2>Popular Products</h2>
+        <div id="popularCardContainer" class="cards-container"></div>
+      </section>
+
+      <!-- Scroll through products -->
+      <section class="scroll-wrapper">
+        <h1>Scroll through our Latest Products:</h1>
+          <button class="scroll-btn left">&#8249;</button>
+            <div id="scroll-container" class="scroll-container"><!-- Cards will be appended here via JS --></div>
+          <button class="scroll-btn right">&#8250;</button>
+      </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
